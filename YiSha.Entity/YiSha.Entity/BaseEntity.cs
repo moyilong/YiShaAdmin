@@ -34,6 +34,7 @@ namespace YiSha.Entity
         }
     }
 
+
     public class BaseCreateEntity : BaseEntity
     {
         /// <summary>

@@ -1,15 +1,14 @@
-﻿using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using YiSha.Entity;
 
 namespace Outin.Labels.EF
 {
     /// <summary>
-    /// 产品
+    /// 产品SKU
     /// </summary>
-    [Table("OutinProduct")]
-    public class Product : BaseCreateEntity
+    [Table("OutinProductSKU")]
+    public class ProductSKU : BaseCreateEntity
     {
         /// <summary>
         /// 名称
@@ -19,8 +18,8 @@ namespace Outin.Labels.EF
         public string Name { get; set; }
 
         /// <summary>
-        /// SKU
+        /// 产品
         /// </summary>
-        public virtual List<ProductSKU> ProductSKUs { get; set; } = new List<ProductSKU>();
+        public virtual Product Product { get; set; }
     }
 }

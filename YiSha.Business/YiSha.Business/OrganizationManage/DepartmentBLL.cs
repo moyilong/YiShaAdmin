@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using YiSha.Entity.OrganizationManage;
-using YiSha.Enum.OrganizationManage;
-using YiSha.Model;
 using YiSha.Model.Result;
 using YiSha.Model.Param.OrganizationManage;
 using YiSha.Service.OrganizationManage;
