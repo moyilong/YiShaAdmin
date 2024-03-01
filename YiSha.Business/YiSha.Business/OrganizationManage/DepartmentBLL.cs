@@ -117,9 +117,11 @@ namespace YiSha.Business.OrganizationManage
 
         public async Task<TData<int>> GetMaxSort()
         {
-            TData<int> obj = new TData<int>();
-            obj.Data = await departmentService.GetMaxSort();
-            obj.Tag = 1;
+            TData<int> obj = new TData<int>
+            {
+                Data = await departmentService.GetMaxSort(),
+                Tag = 1
+            };
             return obj;
         }
         #endregion

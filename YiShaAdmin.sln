@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29102.190
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 Framework 基础设施层", "01 Framework 基础设施层", "{0D0F3140-E7C9-494A-8CE4-EB7899A51CDB}"
 EndProject
@@ -63,7 +63,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiSha.RedisCache", "YiSha.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiSha.CacheTest", "YiSha.Test\YiSha.CacheTest\YiSha.CacheTest.csproj", "{1D926E88-D833-4FCA-BA5D-68D1A219E933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YiSha.DataTest", "YiSha.Test\YiSha.DataTest\YiSha.DataTest.csproj", "{DD0E31F2-37AF-447A-9F88-FDFC1C021ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YiSha.DataTest", "YiSha.Test\YiSha.DataTest\YiSha.DataTest.csproj", "{DD0E31F2-37AF-447A-9F88-FDFC1C021ECD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Outin.Labels.EF", "Outin.Labels.EF\Outin.Labels.EF.csproj", "{096936CE-2F55-4C41-9CD3-EF55C1D23E65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -351,6 +353,18 @@ Global
 		{DD0E31F2-37AF-447A-9F88-FDFC1C021ECD}.Release|iPhone.Build.0 = Release|Any CPU
 		{DD0E31F2-37AF-447A-9F88-FDFC1C021ECD}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
 		{DD0E31F2-37AF-447A-9F88-FDFC1C021ECD}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Release|iPhone.Build.0 = Release|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -380,6 +394,7 @@ Global
 		{11BE0DFB-FE4F-4AB5-BFEB-1218945E9901} = {DE45D774-2013-4CA1-BD7C-CDDD73582A12}
 		{1D926E88-D833-4FCA-BA5D-68D1A219E933} = {A89606FB-495E-4E40-96B1-D346C5741C3E}
 		{DD0E31F2-37AF-447A-9F88-FDFC1C021ECD} = {A89606FB-495E-4E40-96B1-D346C5741C3E}
+		{096936CE-2F55-4C41-9CD3-EF55C1D23E65} = {E3C7D56C-B89F-4360-8DD8-DCFF34443263}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4873C9CF-80BE-4949-BB7D-A1CA9E3BC77D}
